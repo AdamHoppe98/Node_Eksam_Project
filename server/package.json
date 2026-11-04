@@ -1,0 +1,25 @@
+{
+  "name": "mealo",
+  "version": "0.0.1",
+  "description": "Recipe and meal planner",
+  "keywords": [
+    "meal",
+    "planner",
+    "food",
+    "shopping",
+    "list"
+  ],
+  "license": "MIT",
+  "author": "Adam",
+  "type": "module",
+  "main": "app.js",
+  "scripts": {
+    "start": "cross-env PORT=80 node app.js",
+    "start-dev": "cross-env PORT=9090 nodemon app.js"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.9",
+    "express": "^5.3.0",
+    "nodemailer": "^10.2.1"
+  }
+}
