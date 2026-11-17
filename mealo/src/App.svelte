@@ -5,7 +5,7 @@
   
 </script>
 
-<Home/>
+<Home />
 
 
 <style>

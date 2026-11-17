@@ -8,10 +8,10 @@
 </script>
 
 
-<!-- <Authentication /> -->
+<Authentication />
 <!-- <RandomMeals /> -->
 <div class="content">
-    <SearchMeals />
+
 
 </div>
 

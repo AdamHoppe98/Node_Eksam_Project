@@ -1,4 +1,4 @@
-import { fetchRandomMeal, fetchMealsWithQuery } from '../util/fetchMeals.js';
+import { fetchRandomMeal, fetchMealsWithQuery } from '../util/fetchMealsUtil.js';
 import { Router } from 'express';
 
 const router = Router();

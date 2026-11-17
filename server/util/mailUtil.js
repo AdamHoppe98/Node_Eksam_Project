@@ -17,8 +17,8 @@ export async function sendMail(email = {}) {
     from: `"Your App" <${process.env.SMTP_USER}>`,
     to: email.email,
     subject: email.subject,
-    text: email.text,
-    html: constructEmail({ text: email.text, subject: email.subject, from: email.from}),
+    text: email.username,
+    html: constructEmail({ username: email.username, from: email.from}),
   });
   console.log("Message sent: %s", info.messageId);
   return info;
